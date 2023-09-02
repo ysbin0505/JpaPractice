@@ -18,8 +18,8 @@ public class JpaMain {
     try{
       /*Member member = new Member();
       member.setId(2L);
-      member.setName("HelloB");
-      em.persist(member);*/
+      member.setName("HelloB");     -> 여기까지 비영속
+      em.persist(member);           -> 여기서부터 영속          */
 
       /*Member findMember = em.find(Member.class, 1L);
       findMember.setName("HelloJPA");
@@ -29,7 +29,7 @@ public class JpaMain {
       List<Member> result = em.createQuery("select m from Member as m", Member.class)
               .setFirstResult(5).setMaxResults(8).getResultList();    //페이징이 엄청 간편함
 
-      tx.commit();
+      tx.commit();    //comit 이후에 데베에 보냄
     } catch (Exception e){
       tx.rollback();
     } finally {
