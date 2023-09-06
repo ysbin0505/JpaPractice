@@ -27,4 +27,7 @@ public class Order {
   private LocalDateTime orderDate;
   @Enumerated(EnumType.STRING)      //ENUM타입은 이거 써주자 + ORDINARY 안씀 -> 순서꼬임
   private OrderStatus status;
+
+  @OneToOne
+  private Delivery delivery;
 }
