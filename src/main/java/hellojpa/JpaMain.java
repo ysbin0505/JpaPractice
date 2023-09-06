@@ -37,4 +37,12 @@ public class JpaMain {
     }
     emf.close();
   }
+
+  private static void printMemberAndTeam(Member member){
+    String username = member.getUsername();
+    System.out.println("username = " + username);
+
+    Team team = member.getTeam();
+    System.out.println("team = " + team.getName());
+  }
 }

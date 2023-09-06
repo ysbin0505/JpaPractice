@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/RoleType.java" afterDir="false" />
+    <list default="true" id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="프록시">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Team.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,21 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/spring 강의/jpa 기본/ex1-hello-jpa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hellojpa" />
@@ -118,7 +125,13 @@
       <workItem from="1693373330024" duration="667000" />
       <workItem from="1693461089882" duration="1786000" />
       <workItem from="1693633522551" duration="844000" />
-      <workItem from="1693789307402" duration="2604000" />
+      <workItem from="1693789307402" duration="3145000" />
+      <workItem from="1693810346873" duration="69000" />
+      <workItem from="1693810879171" duration="6000" />
+      <workItem from="1693884745627" duration="13000" />
+      <workItem from="1693977189294" duration="19000" />
+      <workItem from="1693982725744" duration="3930000" />
+      <workItem from="1693989723281" duration="1067000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 기본편 개발환경 구축">
       <created>1693211912640</created>
@@ -148,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693633740573</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="매핑">
+      <created>1693794812731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693794812731</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +179,7 @@
     <MESSAGE value="JPA 기본편 개발환경 구축 완료" />
     <MESSAGE value="영속, 준영속" />
     <MESSAGE value="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화" />
-    <option name="LAST_COMMIT_MESSAGE" value="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화" />
+    <MESSAGE value="매핑" />
+    <option name="LAST_COMMIT_MESSAGE" value="매핑" />
   </component>
 </project>
