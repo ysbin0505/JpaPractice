@@ -26,8 +26,20 @@ public class JpaMain {
 
       em.persist(findMember);   -> 생략 가능*/
 
-      List<Member> result = em.createQuery("select m from Member as m", Member.class)
-              .setFirstResult(5).setMaxResults(8).getResultList();    //페이징이 엄청 간편함
+      /*List<Member> result = em.createQuery("select m from Member as m", Member.class)
+              .setFirstResult(5).setMaxResults(8).getResultList();    //페이징이 엄청 간편함*/
+
+      Parent parent = new Parent();
+
+      Child child1 = new Child();
+      Child child2 = new Child();
+
+      parent.addChild(child1);
+      parent.addChild(child2);
+
+      em.persist(parent);
+      em.persist(child1);
+      em.persist(child2);
 
       tx.commit();    //comit 이후에 데베에 보냄
     } catch (Exception e){
