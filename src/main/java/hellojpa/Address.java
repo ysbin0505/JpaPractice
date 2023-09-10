@@ -13,9 +13,14 @@ import java.util.Objects;
 @Setter
 public class Address {
   @Id @GeneratedValue
-  private Long id;
+  private int id;
 
   private String address;
+
+  public Address(int id, String address) {
+    this.id = id;
+    this.address = address;
+  }
 
   public Address() {
     
