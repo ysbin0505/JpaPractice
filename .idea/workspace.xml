@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Solution.java" afterDir="false" />
+    <list default="true" id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="cascade 영속성 전이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/JpaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +140,7 @@
       <workItem from="1693977189294" duration="19000" />
       <workItem from="1693982725744" duration="3930000" />
       <workItem from="1693989723281" duration="4327000" />
-      <workItem from="1694057484790" duration="1404000" />
+      <workItem from="1694057484790" duration="2063000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 기본편 개발환경 구축">
       <created>1693211912640</created>
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693991395985</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cascade 영속성 전이">
+      <created>1694058943019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694058943019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +211,7 @@
     <MESSAGE value="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화" />
     <MESSAGE value="매핑" />
     <MESSAGE value="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외" />
-    <option name="LAST_COMMIT_MESSAGE" value="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외" />
+    <MESSAGE value="cascade 영속성 전이" />
+    <option name="LAST_COMMIT_MESSAGE" value="cascade 영속성 전이" />
   </component>
 </project>
