@@ -31,12 +31,25 @@ public class JpaMain {
       List<Member> resultList = query.getResultList();
       for (Member member1 : resultList) {
         System.out.println("member1 = " + member1);*/
-      List<Member> result = em.createQuery("select m from Member m", Member.class).getResultList();
+      /*List<Member> result = em.createQuery("select m from Member m", Member.class).getResultList();
       Member findMember = result.get(1);    //INdex1번 값을 고치는 의미
-      findMember.setAge(20);
+      findMember.setAge(20);*/
 
       //Member result = query.getSingleResult();    //-> 반환할것이 하나일때
       //System.out.println("result = " + result);
+
+/*      List resultList = em.createQuery("select m.username, m.age from Member m").getResultList();
+      Object o = resultList.get(0);
+      Object[] result = (Object[]) o;
+      System.out.println("result = " + result[0]);
+      System.out.println("result = " + result[1]);
+*/    //Object[]타입으로 여러 값 조회하는 방법
+
+      List<MemberDTO> resultList = em.createQuery("select new jpql.MemberDTO(m.username, m.age) from Member m", MemberDTO.class).getResultList();
+      MemberDTO memberDTO = resultList.get(0);
+      System.out.println("memberDTO = " + memberDTO.getUsername());
+      System.out.println("memberDTO = " + memberDTO.getAge());
+
 
       em.flush();
 
