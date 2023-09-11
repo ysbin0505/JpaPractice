@@ -57,6 +57,17 @@ for (int i=0; i<100;  i++){
         System.out.println("member1 = " + member1);
       }
 
+*case
+
+String query = "select " +
+                              "case when m.age <= 10 then '학생요금'" +
+                              "     when m.age >= 60 then '경로요금'" +
+                              "     else '일반요금' end " +
+                              "from Member m";
+      List<String> result = em.createQuery(query, String.class).getResultList();
+      for (String s : result) {
+        System.out.println("s = " + s);
+
       tx.commit();
 
       
