@@ -3,10 +3,13 @@ package jpql;
 import javax.persistence.*;
 
 @Entity
-
 public class Member {
   @Id @GeneratedValue
   private Long id;
+
+  private String loginId;
+  private String mail;
+  private String password;
   private String username;
   private int age;
 
