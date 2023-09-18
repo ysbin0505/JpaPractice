@@ -1,0 +1,8 @@
+# jpa-basic-practice
+JPA기본편
+
+H2 Database 이용할 때 처음에는 
+jdbc:h2:~/<db이름> 으로 접속
+
+이후에는
+jdbc:h2:tcp://localhost/~/<db이름> 으로 접속
