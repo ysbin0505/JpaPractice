@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="값 타입 비교&#10;객체 타입은 자바에서 무조건 false&#10;동등성(재정의) 해수 equals 비교하기">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hellojpa/ValueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hellojpa/ValueMain.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b128d172-fa72-4353-acfe-e981bc2c7f3b" />
+        <option name="url" value="https://github.com/ysbin0505/jpa-bagic-practice.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UbcCkWwt9fWwqGma5j1Vx6p90h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/spring 강의/jpa 기본/ex1-hello-jpa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="hellojpa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ValueMain">
+    <configuration name="Cl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cl" />
+      <module name="ex1-hello-jpa" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.JpaMain" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.Solution" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hellojpa.ValueMain" />
+      <module name="ex1-hello-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hellojpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ValueMain" />
+        <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Cl" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e7e68c3-5171-4bd1-84f6-6932e8480f7a" name="Changes" comment="" />
+      <created>1693211595182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693211595182</updated>
+      <workItem from="1693211596727" duration="1357000" />
+      <workItem from="1693295805766" duration="5525000" />
+      <workItem from="1693315749398" duration="1765000" />
+      <workItem from="1693373330024" duration="667000" />
+      <workItem from="1693461089882" duration="1786000" />
+      <workItem from="1693633522551" duration="844000" />
+      <workItem from="1693789307402" duration="3145000" />
+      <workItem from="1693810346873" duration="69000" />
+      <workItem from="1693810879171" duration="6000" />
+      <workItem from="1693884745627" duration="13000" />
+      <workItem from="1693977189294" duration="19000" />
+      <workItem from="1693982725744" duration="3930000" />
+      <workItem from="1693989723281" duration="4327000" />
+      <workItem from="1694057484790" duration="2063000" />
+      <workItem from="1694322486397" duration="686000" />
+      <workItem from="1694323191330" duration="9319000" />
+    </task>
+    <task id="LOCAL-00001" summary="JPA 기본편 개발환경 구축">
+      <created>1693211912640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211912640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JPA 기본편 개발환경 구축">
+      <created>1693211980193</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693211980193</updated>
+    </task>
+    <task id="LOCAL-00003" summary="JPA 기본편 개발환경 구축 완료">
+      <created>1693298684369</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693298684369</updated>
+    </task>
+    <task id="LOCAL-00004" summary="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화">
+      <created>1693633740573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693633740573</updated>
+    </task>
+    <task id="LOCAL-00005" summary="매핑">
+      <created>1693794812731</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693794812731</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외">
+      <created>1693991372593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693991372593</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외">
+      <created>1693991395985</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693991395985</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cascade 영속성 전이">
+      <created>1694058943019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694058943019</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cascade 영속성 전이">
+      <created>1694322522736</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694322522736</updated>
+    </task>
+    <task id="LOCAL-00010" summary="값 타입 비교&#10;객체 타입은 자바에서 무조건 false">
+      <created>1694329053304</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694329053304</updated>
+    </task>
+    <task id="LOCAL-00011" summary="값 타입 비교&#10;객체 타입은 자바에서 무조건 false&#10;동등성(재정의) 해수 equals 비교하기">
+      <created>1694329791662</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694329791662</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JPA 기본편 개발환경 구축" />
+    <MESSAGE value="JPA 기본편 개발환경 구축 완료" />
+    <MESSAGE value="영속, 준영속" />
+    <MESSAGE value="영속, 준영속&#10;1.데이터 수정 후 롤백&#10;2.데이터 삭제 후 복구&#10;3.임시적인 작업&#10;4.성능 최적화" />
+    <MESSAGE value="매핑" />
+    <MESSAGE value="lazyinitializationExeption 영속이 아닐 떄 (준영속) 프록시 초기화하면 나오면 예외" />
+    <MESSAGE value="cascade 영속성 전이" />
+    <MESSAGE value="값 타입 비교&#10;객체 타입은 자바에서 무조건 false" />
+    <MESSAGE value="값 타입 비교&#10;객체 타입은 자바에서 무조건 false&#10;동등성(재정의) 해수 equals 비교하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="값 타입 비교&#10;객체 타입은 자바에서 무조건 false&#10;동등성(재정의) 해수 equals 비교하기" />
+  </component>
+</project>
